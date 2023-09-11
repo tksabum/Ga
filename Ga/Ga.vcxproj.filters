@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{dd0a306a-4a4b-4176-a6ba-81e236b5830c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{138696d9-b3fe-48af-91c1-a1a8f43cc083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{30b36794-7fc8-4dc9-a5d8-52f070b1eecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{661a1553-70f0-4f9a-b30e-971b1ad4bf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{dec397be-223b-4c34-a813-908843d62bcc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GDIEngine.c">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeControl.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.c">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.c">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingRoomScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstInnerRoomScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondInnerRoomScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MirrorRoomScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.c">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GDIEngine.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeControl.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingRoomScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstInnerRoomScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondInnerRoomScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MirrorRoomScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
